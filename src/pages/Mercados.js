@@ -152,5 +152,4 @@ const Mercados = () => {
         </Container>
     )
 }
-
 export default Mercados
