@@ -12,9 +12,10 @@ const About = () => {
             <Cabecalho />
             <Row>
                 <Col xs={12} lg={6}>
-                    <h1>Seja bem vindo!</h1>
-                    <p> Esta é a área de Login do site MercadosLTDA. </p>
-                    <p>Conclua os cadastros através do menu abaixo</p>
+                    <h1>Nós da MercadoLTDA temos um próposito</h1>
+                    <p>Nosso site é capaz de salvar o nome de todos od mercados do mundo
+                        para isso temos servidores hospedados em diversos com uma diversidade enorme
+                        de mercados, desde o mercado da sua esquina até o maior Walmart do mundo </p>
                 </Col>
 
             </Row>

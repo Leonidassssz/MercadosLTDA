@@ -4,13 +4,13 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
 import {MdRestaurantMenu, MdDescription, MdStore, MdHome, MdMailOutline, MdLocalPizza, MdAccountCircle } from 'react-icons/md'
-import { FcSms,FcOrganization, FcShop } from "react-icons/fc"
+import { FcSms,FcOrganization, FcShop, FcCloseUpMode } from "react-icons/fc"
 
 
 const Cabecalho = () => {
     return (
     <Navbar bg="primary" variant="dark">
-        <Navbar.Brand><MdLocalPizza/> MercadosLTDA</Navbar.Brand>
+        <Navbar.Brand><FcCloseUpMode/> MercadosLTDA</Navbar.Brand>
         <Nav className="mr-auto">
             <Nav.Link href="#/"><FcShop/> Início</Nav.Link>
             <Nav.Link href="#/mercados"><FcOrganization/> Mercados</Nav.Link>
